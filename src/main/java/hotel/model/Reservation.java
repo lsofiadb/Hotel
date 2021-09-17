@@ -41,6 +41,10 @@ public class Reservation implements Serializable {
       //  this.idCuarto = room.getIdRoom();
     }
 
+    public Reservation(){
+        super();
+    }
+
     //Getters and Setters
     public Long getIdReservation() {
         return id;

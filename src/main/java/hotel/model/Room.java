@@ -20,7 +20,9 @@ public class Room implements Serializable{
         this.bedrooms = bedrooms;
         this.bathrooms = bathrooms;
     }
-
+    public Room (){
+        super();
+    }
 
     public Long getIdRoom() {
         return id;
