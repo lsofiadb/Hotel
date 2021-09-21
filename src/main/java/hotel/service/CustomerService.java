@@ -28,6 +28,9 @@ public class CustomerService {
         return customerDao.findCustomerById(id);
              //   .orElseThrow(()-> new UserNotFoundException("<x<"));
     }
+    public Optional<Customer> findCustomerByName(String name){
+        return customerDao.findCustomerByName(name);
+    }
     public void verifyCustomerById(Customer customer){
         if(findCustomerById(customer.getId())==null){
             addCostumer(customer);

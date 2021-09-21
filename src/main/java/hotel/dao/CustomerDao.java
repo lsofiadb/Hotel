@@ -7,5 +7,5 @@ import java.util.Optional;
 
 public interface CustomerDao extends CrudRepository<Customer,Long> {
     Optional<Customer> findCustomerById(Long id);
-
+    Optional<Customer> findCustomerByName(String name);
 }

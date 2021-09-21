@@ -20,6 +20,7 @@ public class Reservation implements Serializable {
     private Date checkin;
     @Column
     private int guests; //amount
+    
     //@Column(nullable = false, updatable = false) //nobody can modify
    // private Long idCustomer;
    // @Column(nullable = false, updatable = false) //nobody can modify

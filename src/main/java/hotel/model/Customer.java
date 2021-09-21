@@ -8,7 +8,7 @@ public class Customer implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false) //nobody can modify
     private Long id;
-    @Column
+    @Column(unique = true)
     private String name;
     @Column
     private String email;
