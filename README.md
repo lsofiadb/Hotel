@@ -1,2 +1,2 @@
 # Hotel
-Using Spring framework.  
+Using Spring boot.  
